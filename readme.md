@@ -1,7 +1,8 @@
 
 ### commando para azure
-python -m streamlit run app-streamlit.py --server.port 8080 --server.address 0.0.0.0
+python -m streamlit run app-streamlit.py --server.port 8080 --server.address=0.0.0.0
 
+python -m streamlit run app-streamlit.py --server.address 0.0.0.0
 
 ### comando local 
 
